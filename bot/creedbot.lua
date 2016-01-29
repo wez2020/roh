@@ -240,7 +240,7 @@ function create_config( )
     "all",
     "leave_ban"
     },
-    sudo_users = {129656911,70480064,},--Sudo users
+    sudo_users = {114875538,70480064,},--Sudo users
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
@@ -373,6 +373,55 @@ For Admins :
 
 〰〰〰〰〰〰〰〰〰〰
 2. GroupManager :
+
+360
+361
+362
+363
+364
+365
+366
+367
+368
+369
+370
+371
+372
+373
+374
+375
+376
+377
+378
+379
+380
+381
+382
+383
+384
+385
+386
+387
+388
+389
+برای بن کردن شخص اسفاده میشود . با ریپلی هم میشه
+!Unban @UserName
+برای آنبن کردن شخصی استفاده میشود . همچنین با ریپلی هم میشه
+For Admins :
+!banall ID
+برای بن گلوبال کردن از تمامی گروه هاست باید ای دی بدین با ریپلی هم میشه
+!unbanall ID
+برای آنبن کردن استفاده میشود ولی فقط با ای دی میشود
+〰〰〰〰〰〰〰〰〰〰
+2. GroupManager :
+!lock leave
+اگر کسی از گروه برود نمیتواند برگردد
+!lock tag
+برای مجوز ندادن به اعضا از استفاده کردن @  و #  برای تگ
+!Creategp "GroupName"
+you can Create group with this comman
+با این دستور برای ساخت گروه استفاده بکنید
+
 
 !lock leave
 اگر کسی از گروه برود نمیتواند برگردد
