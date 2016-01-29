@@ -204,22 +204,27 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
+    "onservice",
     "inrealm",
     "ingroup",
     "inpm",
     "banhammer",
-    "Boobs"
+    "Boobs",
+    "Feedback",
     "plugins",
     "lock_join",
     "antilink",
     "antitag",
     "gps",
     "auto_leave",
-    "calc"
+    "cpu",
+    "calc",
+    "bin",
     "block",
     "tagall",
     "text",
     "info",
+    "bot_on_off",
     "welcome",
     "webshot",
     "google",
@@ -232,11 +237,12 @@ function create_config( )
     "broadcast",
     "download_media",
     "invite",
-    "all"
+    "all",
+    "leave_ban"
     },
-    sudo_users = {129656911,148333167},--Sudo users
+    sudo_users = {70480064,158492446,141922674},--Sudo users
     disabled_channels = {},
-    realm = {},--Realms Id
+    realm = {71074637},--Realms Id
     moderation = {data = 'data/moderation.json'},
     about_text = [[tele TEL LAMON 2.3
     
@@ -528,7 +534,7 @@ To send your ideas to the Moderation group
 !tagall (text)
 To tags the every one and sends your message at bottom
 تگ کردن همه ی اعضای گروه و نوشتن پیام شما زیرش
-by : @omidtarh
+
 〰〰〰〰〰〰〰〰〰
 More plugins  soon ...
 ⚠️ We are Creeds ⚠️
