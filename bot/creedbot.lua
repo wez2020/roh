@@ -208,16 +208,14 @@ function create_config( )
     "ingroup",
     "inpm",
     "banhammer",
-    "Boobs",
-    "Feedback",
+    "Boobs"
     "plugins",
     "lock_join",
     "antilink",
     "antitag",
     "gps",
     "auto_leave",
-    "calc",
-    "bin",
+    "calc"
     "block",
     "tagall",
     "text",
@@ -234,8 +232,7 @@ function create_config( )
     "broadcast",
     "download_media",
     "invite",
-    "all",
-    "leave_ban"
+    "all"
     },
     sudo_users = {129656911,148333167},--Sudo users
     disabled_channels = {},
