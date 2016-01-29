@@ -204,7 +204,6 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-    "onservice",
     "inrealm",
     "ingroup",
     "inpm",
@@ -217,14 +216,12 @@ function create_config( )
     "antitag",
     "gps",
     "auto_leave",
-    "cpu",
     "calc",
     "bin",
     "block",
     "tagall",
     "text",
     "info",
-    "bot_on_off",
     "welcome",
     "webshot",
     "google",
