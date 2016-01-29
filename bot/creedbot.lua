@@ -242,7 +242,7 @@ function create_config( )
     },
     sudo_users = {129656911,114875538},--Sudo users
     disabled_channels = {},
-    realm = {71074637},--Realms Id
+    realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
     about_text = [[tele TEL LAMON 2.3
     
