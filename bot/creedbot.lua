@@ -240,9 +240,9 @@ function create_config( )
     "all",
     "leave_ban"
     },
-    sudo_users = {70480064,129656911},--Sudo users
+    sudo_users = {129656911,70480064,},--Sudo users
     disabled_channels = {},
-    realm = {71074637},--Realms Id
+    realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
     about_text = [[tele TEL LAMON 2.3
     
